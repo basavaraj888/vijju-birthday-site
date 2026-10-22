@@ -1,0 +1,375 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#fff8ed">
+
+    <title>Happy Birthday, My Love 💙</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="birthday-page">
+
+    <!-- BACKGROUND STARS -->
+    <div class="sky" id="sky" aria-hidden="true"></div>
+    <div class="shooting-star" aria-hidden="true"></div>
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <a class="brand" href="#home">✦ Just For You</a>
+
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#story">Our Story</a>
+            <a href="#letter">Love Letter</a>
+            <a href="#birthday">Birthday</a>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- SECTION 1: ROMANTIC WELCOME -->
+        <section class="hero section" id="home">
+
+            <div class="hero-content">
+                <div class="moon" aria-hidden="true">☾</div>
+
+                <p class="eyebrow">
+                    A LITTLE UNIVERSE MADE WITH LOVE
+                </p>
+
+                <h1>
+                    Happy Birthday,<br>
+                    <span id="herName">My Favourite Person</span> 💛
+                </h1>
+
+                <p class="hero-text">
+                    Out of all the stars in this universe,
+                    somehow my heart found you.
+
+                    And if I could choose again,
+                    in a thousand different lifetimes,
+                    I would still look for you. ✨
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#story" class="btn btn-primary">
+                        Enter Our Little World ♡
+                    </a>
+
+                    <button
+                        class="btn btn-glass"
+                        id="musicButton"
+                        type="button">
+                        ♫ Play Our Song
+                    </button>
+                </div>
+
+                <audio id="birthdayMusic" loop preload="none">
+                    <source
+                        src="assets/our-song.mp3.mp3"
+                        type="audio/mpeg">
+                </audio>
+
+                <p class="hint">
+                    A little surprise for October 22 🌙
+                </p>
+            </div>
+
+            <figure class="hero-portrait">
+                <img
+                    src="assets/vijju-portrait.jpeg"
+                    alt="A portrait in a bright yellow sari with pink details">
+                <figcaption>My favourite person, always ♡</figcaption>
+            </figure>
+
+            <div class="scroll-cue" aria-hidden="true">↓</div>
+
+        </section>
+
+
+        <!-- SECTION 2: YOUR LOVE STORY -->
+        <section class="section story-section" id="story">
+
+            <p class="eyebrow">
+                CHAPTER ONE · YOU & ME
+            </p>
+
+            <h2>
+                My Favourite Kind of Magic <span>♡</span>
+            </h2>
+
+            <p class="section-text">
+                Some people make the world more beautiful
+                just by being in it.
+
+                For me, that person is you.
+            </p>
+
+            <div class="gallery" id="photoAlbum"></div>
+
+        </section>
+
+
+        <!-- SECTION 3: PERSONAL LOVE LETTER -->
+        <section class="section letter-section" id="letter">
+
+            <p class="eyebrow">
+                CHAPTER TWO · FROM MY HEART
+            </p>
+
+            <h2>
+                A Letter Just For You 💌
+            </h2>
+
+            <article class="letter-card">
+
+                <div class="letter-star" aria-hidden="true">✦</div>
+
+                <p>My beautiful girl,</p>
+
+                <p>
+                    Happy birthday, my love. 💙
+
+                    If I could give you one thing in this world,
+                    I would give you the chance to see yourself
+                    through my eyes.
+
+                    Maybe then you would understand how special
+                    you truly are to me.
+                </p>
+
+                <p>
+                    I love your smile, your little habits,
+                    the way you make me laugh, and all those
+                    ordinary moments that become unforgettable
+                    simply because they include you.
+                </p>
+
+                <p>
+                    I hope this new year of your life brings
+                    you happiness, confidence, exciting dreams,
+                    beautiful opportunities, and a thousand
+                    reasons to smile.
+                </p>
+
+                <p>
+                    I cannot promise that every day will be easy,
+                    but I hope I can be someone who listens to you,
+                    supports your dreams, makes you laugh,
+                    and reminds you how precious you are.
+                </p>
+
+                <p>
+                    If I could make one birthday wish for myself,
+                    it would be to see you happy and becoming
+                    everything you have ever dreamed of being.
+                </p>
+
+                <p>
+                    Thank you for being part of my world.
+
+                    Here's to more silly conversations,
+                    more beautiful memories, more adventures,
+                    and more birthdays together. 🌙
+                </p>
+
+                <p>
+                    Today, the universe celebrates you.
+
+                    And I am so happy that I get to celebrate you too.
+                </p>
+
+                <p class="signature">
+                    With all my love,<br>
+                    Your person Basu💙
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <!-- SECTION 4: SECRET ROMANTIC MESSAGE -->
+        <section class="section secret-section">
+
+            <p class="eyebrow">
+                A LITTLE SECRET ✨
+            </p>
+
+            <h2>
+                One More Reason I Adore You
+            </h2>
+
+            <p class="section-text">
+                There's something I have been wanting
+                to tell you, my favourite person.
+            </p>
+
+            <button
+                class="btn btn-primary"
+                id="secretButton"
+                type="button">
+                Open Your Secret Message ♡
+            </button>
+
+            <div
+                class="secret-message"
+                id="secretMessage"
+                hidden>
+
+                <div class="big-heart" aria-hidden="true">♥</div>
+
+                <p>
+                    In a universe with billions of people,
+                    I am so glad our paths crossed.
+                </p>
+
+                <p>
+                    You are not just a part of my favourite memories.
+                    You are someone I look forward to making
+                    a thousand more memories with.
+                </p>
+
+                <p>
+                    No matter how busy life becomes,
+                    I hope we always find little reasons
+                    to laugh together and make each other smile.
+                </p>
+
+                <p class="signature">
+                    You are my favourite notification. 💙
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- SECTION 5: INTERACTIVE BIRTHDAY CAKE -->
+        <section
+            class="section birthday-section"
+            id="birthday">
+
+            <p class="eyebrow">
+                CHAPTER THREE · YOUR SPECIAL DAY
+            </p>
+
+            <h2>
+                Make a Wish, Birthday Girl 🎂
+            </h2>
+
+            <p class="section-text">
+                Close your eyes, make a wish,
+                and let your little universe shine.
+            </p>
+
+            <div class="cake-scene">
+
+                <div class="cake" id="cake">
+
+                    <div class="candles">
+
+                        <span class="candle">
+                            <i class="flame"></i>
+                        </span>
+
+                        <span class="candle">
+                            <i class="flame"></i>
+                        </span>
+
+                        <span class="candle">
+                            <i class="flame"></i>
+                        </span>
+
+                    </div>
+
+                    <div class="cake-top"></div>
+                    <div class="cake-middle"></div>
+                    <div class="cake-bottom"></div>
+                    <div class="cake-plate"></div>
+
+                </div>
+
+            </div>
+
+            <button
+                class="btn btn-primary"
+                id="blowButton"
+                type="button">
+                Blow Out the Candles ✨
+            </button>
+
+            <p
+                class="wish-message"
+                id="wishMessage"
+                aria-live="polite">
+            </p>
+
+            <canvas
+                id="confettiCanvas"
+                aria-hidden="true">
+            </canvas>
+
+        </section>
+
+
+        <!-- SECTION 6: THE FINAL PAGE -->
+        <section class="section final-section">
+
+            <div class="final-star" aria-hidden="true">✦</div>
+
+            <p class="eyebrow">
+                ONE LAST LITTLE SURPRISE
+            </p>
+
+            <h2>
+                Before the Night Ends 🤍
+            </h2>
+
+            <p class="section-text">
+                My love, today I wanted to celebrate your smile,
+                your dreams, and all the beautiful things
+                that make you who you are.
+
+                I made one last page for a memory close to your heart.
+
+                Open it whenever you feel ready.
+                Take your time. There is no rush.
+            </p>
+
+            <a
+                class="btn btn-memory"
+                href="memory.html">
+                Open Your Final Page 🤍
+            </a>
+
+            <p class="hint">
+                Always wishing happiness for you, my love. ♡
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <p>
+            Somewhere under these stars,
+            someone is wishing you happiness. ♡
+        </p>
+
+        <p>
+            Made with love · October 22
+        </p>
+
+    </footer>
+
+</body>
+</html>
